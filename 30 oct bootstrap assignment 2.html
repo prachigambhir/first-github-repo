@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+.jumbotron {
+    margin: 0px;
+    padding: 34px;
+}
+.navbar{
+    background-color: rgb(61, 61, 70);
+    /* border-radius: 5px; */
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 5px 5px;
+     margin: 13px 20px;
+     color: white;
+}
+.navbar li a{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+}
+.pre{
+    font-size: 20px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+}
+.btn1{
+    background-color: gray;
+    color: white;
+    border: none;
+}
+.search{
+    margin-top: 15px;
+     float: right;
+    padding: 1px 56px;
+}
+.btn2{
+    border: 1px solid green;
+    color: green;
+}
+</style>
+<body>
+  <header>
+    <nav class="navbar">
+    <ul>
+        <li><a href="">Navbar</a></li>
+        <li><a href="">home</a></li>
+        <li><a href="">link</a></li>
+        <li><a href="">disabled</a></li>
+        <li><a href="">dropdown</a></li>
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="search">
+            <button class="btn2">Search</button>
+        </div>
+     </ul>
+    </nav>
+</header>
+
+<div class="jumbotron text-left">
+  <h1>Hello, world!</h1>
+ <p> a template for a single marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content.
+ Use it as a starting point to create something more unique.</p>
+  <br><button class="btn">Learn more>></button>
+</div>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <button class="btn1">View details>></button>
+    </div>
+    <div class="col-sm-4">
+      <h3>Heading</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <button class="btn1">View details>></button>
+    </div>
+    <div class="col-sm-4">
+      <h3>Heading</h3>        
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <button class="btn1">View details>></button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
